@@ -1,10 +1,13 @@
 {
-  "name": "async-sema",
+  "name": "@jan-tee/async-sema",
   "version": "3.1.2",
   "description": "Semaphore using `async` and `await`",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vercel/async-sema.git"
+    "url": "git+https://github.com/jan-tee/async-sema.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "Olli Vanhoja",
   "keywords": [
